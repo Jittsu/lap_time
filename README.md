@@ -1,4 +1,4 @@
-# QUSTラップタイム計算アプリケーション
+# QUSTラップタイム計算アプリケーション Ver. 1.0.0
 
 ## Instllation
 * win
