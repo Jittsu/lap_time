@@ -6,12 +6,10 @@ def main():
     mem_time = {}
     num_mem = int(input("組の九大の人数入力："))
     for i in range(num_mem):
-#        print("{0}人目のレーン番号入力".format(i+1))
         num_lane.append(input("{0}人目のレーン番号入力：".format(i+1)))
     for i in range(num_mem):
         mem_time[num_lane[i]] = []
     while True:
-#        print("スプリットタイムを入力するレーンの番号を入力")
         print("登録済みレーン番号 => {0}".format(num_lane))
         in_lane = input("スプリットタイムを入力するレーンの番号を入力：")
         if in_lane in num_lane:
@@ -32,7 +30,6 @@ def main():
                 mem_time[in_lane].append(datetime.timedelta(minutes=min, seconds=sec, microseconds=micro_sec))
             else:
                 print("Input Error: 入力し直してください")
-#            print("終了する場合は0を入力、続けて入力する場合は1を入力")
             branch = input("終了する場合は0を入力、続けて入力する場合は1を入力：")
             if(branch == "0"):
                 break
@@ -53,7 +50,6 @@ if __name__ == "__main__":
     Flag = 1
     while Flag:
         main()
-#        print("終了する場合は0を入力、次のレースを入力する場合は1を入力")
         ch = input("\n終了する場合は0を入力、次のレースを入力する場合は1を入力：")
         if ch == "0":
             Flag = 0
