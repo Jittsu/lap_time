@@ -18,12 +18,12 @@ def main():
             time = input("TIME：")
             time_list = []
             time_list = time.split(":")
-            if(len(time_list) == 2):
+            if len(time_list) == 2:
                 min = 0
                 sec = int(time_list[0])
                 micro_sec = int(time_list[1]) * (10**4)
                 mem_time[in_lane].append(datetime.timedelta(minutes=min, seconds=sec, microseconds=micro_sec))
-            elif(len(time_list) == 3):
+            elif len(time_list) == 3:
                 min = int(time_list[0])
                 sec = int(time_list[1])
                 micro_sec = int(time_list[2]) * (10**4)
@@ -31,7 +31,7 @@ def main():
             else:
                 print("Input Error: 入力し直してください")
             branch = input("終了する場合は0を入力、続けて入力する場合は1を入力：")
-            if(branch == "0"):
+            if branch == "0":
                 break
         else:
             print("そのレーン番号は登録されていません")
