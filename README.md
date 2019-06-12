@@ -2,12 +2,14 @@
 
 ## Instllation
 * win
-    * winディレクトリ以下に存在する"lap_time.exe"をダウンロード
-    * ダウンロードされたlap_time.exeをクリックして起動(コマンドプロンプト上で動きます)
+    * appディレクトリ以下に存在する"lap_time_win.zip"をダウンロード
+    * ダウンロードしたlap_time_win.zipを解凍
+    * 展開されたlap_time.exeをクリックして起動(コマンドプロンプト上で動きます)
 
 * mac
-    * macディレクトリ以下の存在する"lap_time"をダウンロード
-    * ダウンロードされたlap_timeをクリックして起動(ターミナル上で動きます)
+    * appディレクトリ以下の存在する"lap_time_mac.zip"をダウンロード
+    * ダウンロードしたlap_time_mac.zipを解凍
+    * 展開されたlap_timeをクリックして起動(ターミナル上で動きます)
 
 ## error表示が出た時
 * ctrlキーを押しながらcを押下して終了させてください
