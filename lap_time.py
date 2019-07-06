@@ -38,8 +38,8 @@ def main():
 
     print("\n<<RESULT>>")
     for in_lane in num_lane:
+        lap = []
         for i in range(int(len(mem_time[in_lane])) - 1):
-            lap = []
             lap.append(mem_time[in_lane][i+1] - mem_time[in_lane][i])
         print("第{0}レーン".format(in_lane))
         print(str(mem_time[in_lane][0]))
