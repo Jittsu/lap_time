@@ -1,6 +1,6 @@
 # QUSTラップタイム計算アプリケーション Ver. 2.0.0
 
-## Instllation
+## Installation
 * win
     * appディレクトリ以下に存在する"lap_time_win.zip"をダウンロード
     * ダウンロードしたlap_time_win.zipを解凍
